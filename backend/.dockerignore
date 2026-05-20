@@ -1,5 +1,11 @@
-fly.toml
-.git/
-__pycache__/
-.envrc
-.venv/
+.git
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+.env
+*.log
+snapbrain_backend.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
