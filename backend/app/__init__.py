@@ -1,0 +1,2 @@
+"""SnapBrain FastAPI backend."""
+
