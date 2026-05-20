@@ -5,6 +5,8 @@ primary_region = "nrt"
   dockerfile = "Dockerfile"
 
 [env]
+  FRONTEND_ORIGIN = "https://snap-brain.vercel.app"
+  FRONTEND_ORIGINS = "https://snap-brain.vercel.app"
   SUPABASE_STORAGE_BUCKET = "memory-objects"
   ALLOW_DEV_USER_HEADER = "false"
   OPENAI_VISION_MODEL = "gpt-5.2"
